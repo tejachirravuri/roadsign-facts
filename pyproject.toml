@@ -10,12 +10,14 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [{ name = "Teja Chirravuri", email = "tejagana@gmail.com" }]
-dependencies = ["numpy>=1.21", "opencv-python-headless>=4.5", "scikit-learn>=1.0", "joblib"]
+# OpenCV 5 removed HOGDescriptor from the main package
+dependencies = ["numpy>=1.21", "opencv-python-headless>=4.5,<5"]
 
 [project.optional-dependencies]
 can = ["python-can>=4.0"]
+train = ["scikit-learn>=1.0"]
 bench = ["psutil", "matplotlib>=3.5"]
-dev = ["pytest>=7", "psutil", "matplotlib>=3.5"]
+dev = ["pytest>=7", "psutil", "matplotlib>=3.5", "scikit-learn>=1.0"]
 
 [project.scripts]
 roadsign = "roadsign.cli:main"

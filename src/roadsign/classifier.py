@@ -109,9 +109,40 @@ def background_crops(videos: Sequence, n: int, seed: int = 0, sizes=(16, 90)):
 
 # --- model -----------------------------------------------------------------
 
+class LinearModel:
+    """Standardise, project with PCA, linear SVM scores, in plain numpy.
+
+    Exported from the scikit-learn pipeline after training, so using the
+    model needs neither scikit-learn nor a matching pickle version."""
+
+    def __init__(self, mean, scale, pca_mean, components, coef, intercept, classes):
+        self.mean, self.scale = mean, scale
+        self.pca_mean, self.components = pca_mean, components
+        self.coef, self.intercept = coef, intercept
+        self.classes_ = classes
+
+    @classmethod
+    def from_sklearn(cls, pipeline):
+        scaler, pca, svm = (pipeline.steps[i][1] for i in range(3))
+        return cls(scaler.mean_.astype(np.float32), scaler.scale_.astype(np.float32),
+                   pca.mean_.astype(np.float32), pca.components_.astype(np.float32),
+                   svm.coef_.astype(np.float32), svm.intercept_.astype(np.float32),
+                   np.asarray(svm.classes_))
+
+    def decision_function(self, X):
+        Z = (np.asarray(X, np.float32) - self.mean) / self.scale
+        Z = (Z - self.pca_mean) @ self.components.T
+        return Z @ self.coef.T + self.intercept
+
+    def arrays(self):
+        return {"mean": self.mean, "scale": self.scale, "pca_mean": self.pca_mean,
+                "components": self.components, "coef": self.coef,
+                "intercept": self.intercept, "classes": self.classes_}
+
+
 @dataclass
 class SignClassifier:
-    model: object
+    model: LinearModel
     meta: dict
 
     def predict(self, crops: Sequence[np.ndarray]) -> Tuple[np.ndarray, np.ndarray]:
@@ -127,20 +158,21 @@ class SignClassifier:
         return classes, margin
 
     def save(self, path):
-        import joblib
         path = Path(path)
         path.parent.mkdir(parents=True, exist_ok=True)
-        joblib.dump(self.model, path)
+        np.savez_compressed(path, **self.model.arrays())
         path.with_suffix(".json").write_text(json.dumps(self.meta, indent=1))
 
     @classmethod
     def load(cls, path):
-        import joblib
         path = Path(path)
         meta = {}
         if path.with_suffix(".json").is_file():
             meta = json.loads(path.with_suffix(".json").read_text())
-        return cls(joblib.load(path), meta)
+        z = np.load(path)
+        model = LinearModel(z["mean"], z["scale"], z["pca_mean"], z["components"],
+                            z["coef"], z["intercept"], z["classes"])
+        return cls(model, meta)
 
 
 def training_set(gtsrb_root, background_videos, n_background=6000, limit=None,
@@ -178,6 +210,7 @@ def train(gtsrb_root, background_videos, n_background=6000, C=0.05, limit=None,
                           LinearSVC(C=C, dual=False, max_iter=2000))
     model.fit(X, y)
     log("trained in %.0fs, %d features" % (time.perf_counter() - t0, X.shape[1]))
+    model = LinearModel.from_sklearn(model)
     meta = {"features": int(X.shape[1]), "pca": n_components, "size": SIZE, "C": C,
             "train_gtsrb": int(n_gtsrb), "train_background": int(n_bg),
             "background_videos": [Path(v).name for v in background_videos]}

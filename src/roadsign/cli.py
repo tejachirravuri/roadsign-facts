@@ -2,7 +2,7 @@
 
     roadsign run VIDEO [--mode parallel] [--out DIR] [--annotate] [--can-log]
     roadsign bench VIDEO... [--modes sequential,threaded,parallel,live] [--scales 1,0.5]
-    roadsign train GTSRB_DIR [--background-videos ...] [--model models/signs_hog_svm.joblib]
+    roadsign train GTSRB_DIR [--background-videos ...] [--model models/signs_hog_svm.npz]
     roadsign eval GTSRB_DIR [--model ...]
 """
 from __future__ import annotations
@@ -17,7 +17,7 @@ from pathlib import Path
 from . import __version__
 
 log = logging.getLogger("roadsign")
-DEFAULT_MODEL = str(Path(__file__).resolve().parents[2] / "models" / "signs_hog_svm.joblib")
+DEFAULT_MODEL = str(Path(__file__).resolve().parents[2] / "models" / "signs_hog_svm.npz")
 
 
 def cmd_run(args):

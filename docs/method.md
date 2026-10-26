@@ -35,7 +35,10 @@ All three detectors take a BGR frame and return a list of detections
 3. Classifier: 40 x 40 pixels, CLAHE on the grey image, HOG (10 x 10
    blocks, 5 x 5 cells, 9 bins, 1764 values) plus a 12 x 3 hue/saturation
    histogram, standardised, PCA to 400 dimensions, linear SVM (C = 0.05).
-   44 classes: the 43 GTSRB classes and "background".
+   44 classes: the 43 GTSRB classes and "background". Trained with
+   scikit-learn, then exported as plain arrays (scaler, PCA, SVM weights) so
+   that running it needs only numpy and no pickle of a particular
+   scikit-learn version.
 4. The background class is made of random crops (16 to 90 px) from the clips
    of drives B and D (`trafficLight1B`, `auto2`), so the other drives stay
    unseen. Candidates classified as background, or with a decision margin

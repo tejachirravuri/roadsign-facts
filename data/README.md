@@ -32,4 +32,4 @@ benchmark site or the Kaggle mirror ("GTSRB - German Traffic Sign
 Recognition Benchmark") and point `roadsign train` / `roadsign eval` at the
 folder that contains `Train.csv`, `Test.csv`, `Train/` and `Test/`.
 
-The trained model (`models/signs_hog_svm.joblib`, 3 MB) is included.
+The trained model (`models/signs_hog_svm.npz`, 3 MB) is included.

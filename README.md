@@ -51,7 +51,7 @@ Details, figures and the limits: [docs/results.md](docs/results.md).
 ## Usage
 
 ```bash
-pip install -e ".[dev]"
+pip install -e .            # running; add ".[train]" for training, ".[dev]" for tests
 
 roadsign run data/videos/video3.mp4 --out runs --can-log --annotate
 roadsign run data/videos/both1d.mp4 --mode live --scale 0.5
@@ -83,7 +83,7 @@ src/roadsign/
     can.py            CAN frame format, virtual bus, python-can, receiver
     pipeline.py       running the detectors in the four modes
     bench.py, cli.py, viz.py
-models/               trained classifier and its evaluation
+models/               trained classifier (plain numpy arrays, no pickle) and its evaluation
 data/videos/          test clips (see data/README.md)
 results/              facts, evidence crops, audit, benchmark, figures
 docs/                 background, method, results

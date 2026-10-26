@@ -22,7 +22,7 @@ from roadsign.facts import write_clips, write_jsonl  # noqa: E402
 from roadsign.pipeline import Pipeline, default_detectors  # noqa: E402
 from roadsign.viz import draw  # noqa: E402
 
-MODEL = ROOT / "models" / "signs_hog_svm.joblib"
+MODEL = ROOT / "models" / "signs_hog_svm.npz"
 
 
 def scale_for(path):
