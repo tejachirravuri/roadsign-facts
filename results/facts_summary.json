@@ -1,0 +1,2211 @@
+[
+ {
+  "video": "3.avi",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 697,
+  "frames_read": 697,
+  "frames_processed": 697,
+  "frames_dropped": 0,
+  "wall_s": 3.83,
+  "processed_fps": 181.75,
+  "cpu_percent": 351.2,
+  "frame_ms": {
+   "mean": 5.37,
+   "p95": 8.26
+  },
+  "latency_ms": {
+   "mean": 344.92,
+   "p95": 498.17
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 4.87,
+    "p95": 7.49
+   },
+   "sign": {
+    "mean": 3.86,
+    "p95": 7.08
+   },
+   "direction_sign": {
+    "mean": 3.09,
+    "p95": 5.19
+   }
+  },
+  "detections": {
+   "sign": 154,
+   "direction_sign": 137,
+   "speed_limit": 27,
+   "traffic_light": 1
+  },
+  "facts": 12,
+  "events": [
+   {
+    "t": 5.792,
+    "frame": 139,
+    "action": "assert",
+    "name": "road-type",
+    "value": "autobahn"
+   },
+   {
+    "t": 8.5,
+    "frame": 204,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "60"
+   },
+   {
+    "t": 12.292,
+    "frame": 295,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 13.458,
+    "frame": 323,
+    "action": "assert",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 14.875,
+    "frame": 357,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 15.917,
+    "frame": 382,
+    "action": "retract",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 17.167,
+    "frame": 412,
+    "action": "assert",
+    "name": "sign",
+    "value": "traffic signals"
+   },
+   {
+    "t": 19.25,
+    "frame": 462,
+    "action": "retract",
+    "name": "sign",
+    "value": "traffic signals"
+   },
+   {
+    "t": 20.542,
+    "frame": 493,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 23.125,
+    "frame": 555,
+    "action": "assert",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 23.458,
+    "frame": 563,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 27.5,
+    "frame": 660,
+    "action": "retract",
+    "name": "sign",
+    "value": "yield"
+   }
+  ],
+  "received": {
+   "road-type": [
+    "autobahn"
+   ],
+   "speed-limit": [
+    "60"
+   ]
+  }
+ },
+ {
+  "video": "auto2.mp4",
+  "mode": "parallel",
+  "scale": 0.5,
+  "frames_in_video": 900,
+  "frames_read": 900,
+  "frames_processed": 900,
+  "frames_dropped": 0,
+  "wall_s": 13.01,
+  "processed_fps": 69.19,
+  "cpu_percent": 577.4,
+  "frame_ms": {
+   "mean": 14.12,
+   "p95": 17.07
+  },
+  "latency_ms": {
+   "mean": 568.74,
+   "p95": 884.64
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 13.66,
+    "p95": 16.52
+   },
+   "sign": {
+    "mean": 8.52,
+    "p95": 12.54
+   },
+   "direction_sign": {
+    "mean": 8.0,
+    "p95": 11.5
+   }
+  },
+  "detections": {
+   "direction_sign": 36,
+   "sign": 2
+  },
+  "facts": 1,
+  "events": [
+   {
+    "t": 8.675,
+    "frame": 260,
+    "action": "assert",
+    "name": "road-type",
+    "value": "autobahn"
+   }
+  ],
+  "received": {
+   "road-type": [
+    "autobahn"
+   ]
+  }
+ },
+ {
+  "video": "autobahn5a1.mp4",
+  "mode": "parallel",
+  "scale": 0.5,
+  "frames_in_video": 4320,
+  "frames_read": 4320,
+  "frames_processed": 4320,
+  "frames_dropped": 0,
+  "wall_s": 64.58,
+  "processed_fps": 66.9,
+  "cpu_percent": 592.4,
+  "frame_ms": {
+   "mean": 14.64,
+   "p95": 17.31
+  },
+  "latency_ms": {
+   "mean": 951.57,
+   "p95": 1099.69
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 14.17,
+    "p95": 16.76
+   },
+   "sign": {
+    "mean": 10.83,
+    "p95": 15.15
+   },
+   "direction_sign": {
+    "mean": 7.34,
+    "p95": 10.55
+   }
+  },
+  "detections": {
+   "speed_limit": 159,
+   "sign": 1352,
+   "direction_sign": 179,
+   "traffic_light": 137
+  },
+  "facts": 66,
+  "events": [
+   {
+    "t": 1.042,
+    "frame": 25,
+    "action": "assert",
+    "name": "road-type",
+    "value": "autobahn"
+   },
+   {
+    "t": 4.833,
+    "frame": 116,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 7.5,
+    "frame": 180,
+    "action": "assert",
+    "name": "sign",
+    "value": "no entry"
+   },
+   {
+    "t": 8.458,
+    "frame": 203,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 9.958,
+    "frame": 239,
+    "action": "retract",
+    "name": "sign",
+    "value": "no entry"
+   },
+   {
+    "t": 12.667,
+    "frame": 304,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 14.167,
+    "frame": 340,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 20.625,
+    "frame": 495,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 24.75,
+    "frame": 594,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 24.875,
+    "frame": 597,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 25.833,
+    "frame": 620,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 27.167,
+    "frame": 652,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 30.542,
+    "frame": 733,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 33.958,
+    "frame": 815,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 35.25,
+    "frame": 846,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 38.333,
+    "frame": 920,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 38.875,
+    "frame": 933,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 45.583,
+    "frame": 1094,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 45.917,
+    "frame": 1102,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 54.583,
+    "frame": 1310,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 56.625,
+    "frame": 1359,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 57.333,
+    "frame": 1376,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 59.375,
+    "frame": 1425,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 67.792,
+    "frame": 1627,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 70.208,
+    "frame": 1685,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 75.292,
+    "frame": 1807,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 77.333,
+    "frame": 1856,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 77.667,
+    "frame": 1864,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 87.333,
+    "frame": 2096,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 88.792,
+    "frame": 2131,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 92.333,
+    "frame": 2216,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 92.958,
+    "frame": 2231,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 100.917,
+    "frame": 2422,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 108.208,
+    "frame": 2597,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "60"
+   },
+   {
+    "t": 112.0,
+    "frame": 2688,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 112.917,
+    "frame": 2710,
+    "action": "assert",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 114.917,
+    "frame": 2758,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 115.958,
+    "frame": 2783,
+    "action": "retract",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 116.542,
+    "frame": 2797,
+    "action": "assert",
+    "name": "sign",
+    "value": "traffic signals"
+   },
+   {
+    "t": 117.875,
+    "frame": 2829,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 119.25,
+    "frame": 2862,
+    "action": "retract",
+    "name": "sign",
+    "value": "traffic signals"
+   },
+   {
+    "t": 119.917,
+    "frame": 2878,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 120.292,
+    "frame": 2887,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 121.625,
+    "frame": 2919,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "green"
+   },
+   {
+    "t": 121.833,
+    "frame": 2924,
+    "action": "assert",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 123.5,
+    "frame": 2964,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 123.583,
+    "frame": 2966,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "green"
+   },
+   {
+    "t": 124.417,
+    "frame": 2986,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 126.667,
+    "frame": 3040,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 127.542,
+    "frame": 3061,
+    "action": "retract",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 142.667,
+    "frame": 3424,
+    "action": "assert",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 145.125,
+    "frame": 3483,
+    "action": "assert",
+    "name": "sign",
+    "value": "danger"
+   },
+   {
+    "t": 146.458,
+    "frame": 3515,
+    "action": "assert",
+    "name": "sign",
+    "value": "stop"
+   },
+   {
+    "t": 146.667,
+    "frame": 3520,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 147.167,
+    "frame": 3532,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead or left"
+   },
+   {
+    "t": 147.208,
+    "frame": 3533,
+    "action": "retract",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 149.292,
+    "frame": 3583,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead or left"
+   },
+   {
+    "t": 149.583,
+    "frame": 3590,
+    "action": "retract",
+    "name": "sign",
+    "value": "danger"
+   },
+   {
+    "t": 149.583,
+    "frame": 3590,
+    "action": "retract",
+    "name": "sign",
+    "value": "stop"
+   },
+   {
+    "t": 150.75,
+    "frame": 3618,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 155.0,
+    "frame": 3720,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 156.542,
+    "frame": 3757,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 159.25,
+    "frame": 3822,
+    "action": "retract",
+    "name": "speed-limit",
+    "value": "60"
+   },
+   {
+    "t": 159.25,
+    "frame": 3822,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "80"
+   },
+   {
+    "t": 174.375,
+    "frame": 4185,
+    "action": "assert",
+    "name": "sign",
+    "value": "no overtaking"
+   },
+   {
+    "t": 177.792,
+    "frame": 4267,
+    "action": "retract",
+    "name": "sign",
+    "value": "no overtaking"
+   }
+  ],
+  "received": {
+   "road-type": [
+    "autobahn"
+   ],
+   "speed-limit": [
+    "80"
+   ]
+  }
+ },
+ {
+  "video": "both1a.mp4",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 1801,
+  "frames_read": 1801,
+  "frames_processed": 1801,
+  "frames_dropped": 0,
+  "wall_s": 11.85,
+  "processed_fps": 151.93,
+  "cpu_percent": 400.7,
+  "frame_ms": {
+   "mean": 6.47,
+   "p95": 9.09
+  },
+  "latency_ms": {
+   "mean": 424.75,
+   "p95": 570.94
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 6.03,
+    "p95": 8.12
+   },
+   "sign": {
+    "mean": 4.68,
+    "p95": 8.1
+   },
+   "direction_sign": {
+    "mean": 3.67,
+    "p95": 5.53
+   }
+  },
+  "detections": {
+   "direction_sign": 137,
+   "speed_limit": 53,
+   "sign": 210
+  },
+  "facts": 21,
+  "events": [
+   {
+    "t": 4.875,
+    "frame": 117,
+    "action": "assert",
+    "name": "road-type",
+    "value": "autobahn"
+   },
+   {
+    "t": 7.583,
+    "frame": 182,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "60"
+   },
+   {
+    "t": 11.333,
+    "frame": 272,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 12.583,
+    "frame": 302,
+    "action": "assert",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 13.625,
+    "frame": 327,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 14.667,
+    "frame": 352,
+    "action": "retract",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 19.917,
+    "frame": 478,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 22.167,
+    "frame": 532,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 22.25,
+    "frame": 534,
+    "action": "assert",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 26.25,
+    "frame": 630,
+    "action": "retract",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 43.0,
+    "frame": 1032,
+    "action": "assert",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 45.292,
+    "frame": 1087,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 45.458,
+    "frame": 1091,
+    "action": "assert",
+    "name": "sign",
+    "value": "danger"
+   },
+   {
+    "t": 45.917,
+    "frame": 1102,
+    "action": "retract",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 46.0,
+    "frame": 1104,
+    "action": "assert",
+    "name": "sign",
+    "value": "stop"
+   },
+   {
+    "t": 48.25,
+    "frame": 1158,
+    "action": "retract",
+    "name": "sign",
+    "value": "danger"
+   },
+   {
+    "t": 48.292,
+    "frame": 1159,
+    "action": "retract",
+    "name": "sign",
+    "value": "stop"
+   },
+   {
+    "t": 49.458,
+    "frame": 1187,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 65.125,
+    "frame": 1563,
+    "action": "retract",
+    "name": "speed-limit",
+    "value": "60"
+   },
+   {
+    "t": 65.125,
+    "frame": 1563,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "80"
+   },
+   {
+    "t": 74.375,
+    "frame": 1785,
+    "action": "assert",
+    "name": "sign",
+    "value": "no overtaking"
+   }
+  ],
+  "received": {
+   "road-type": [
+    "autobahn"
+   ],
+   "speed-limit": [
+    "80"
+   ],
+   "sign": [
+    "no overtaking"
+   ]
+  }
+ },
+ {
+  "video": "both1b.mp4",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 1801,
+  "frames_read": 1801,
+  "frames_processed": 1801,
+  "frames_dropped": 0,
+  "wall_s": 33.3,
+  "processed_fps": 54.09,
+  "cpu_percent": 500.9,
+  "frame_ms": {
+   "mean": 18.09,
+   "p95": 21.21
+  },
+  "latency_ms": {
+   "mean": 1188.22,
+   "p95": 1349.56
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 17.72,
+    "p95": 20.79
+   },
+   "sign": {
+    "mean": 12.64,
+    "p95": 17.1
+   },
+   "direction_sign": {
+    "mean": 10.68,
+    "p95": 13.97
+   }
+  },
+  "detections": {
+   "direction_sign": 150,
+   "speed_limit": 114,
+   "sign": 384,
+   "traffic_light": 5
+  },
+  "facts": 29,
+  "events": [
+   {
+    "t": 4.542,
+    "frame": 109,
+    "action": "assert",
+    "name": "road-type",
+    "value": "autobahn"
+   },
+   {
+    "t": 7.292,
+    "frame": 175,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "60"
+   },
+   {
+    "t": 11.125,
+    "frame": 267,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 12.375,
+    "frame": 297,
+    "action": "assert",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 13.625,
+    "frame": 327,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 14.667,
+    "frame": 352,
+    "action": "retract",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 15.542,
+    "frame": 373,
+    "action": "assert",
+    "name": "sign",
+    "value": "traffic signals"
+   },
+   {
+    "t": 18.0,
+    "frame": 432,
+    "action": "retract",
+    "name": "sign",
+    "value": "traffic signals"
+   },
+   {
+    "t": 19.0,
+    "frame": 456,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 21.708,
+    "frame": 521,
+    "action": "assert",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 22.208,
+    "frame": 533,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 23.208,
+    "frame": 557,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 25.375,
+    "frame": 609,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 26.25,
+    "frame": 630,
+    "action": "retract",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 42.625,
+    "frame": 1023,
+    "action": "assert",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 44.375,
+    "frame": 1065,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 44.75,
+    "frame": 1074,
+    "action": "assert",
+    "name": "sign",
+    "value": "danger"
+   },
+   {
+    "t": 45.458,
+    "frame": 1091,
+    "action": "assert",
+    "name": "sign",
+    "value": "stop"
+   },
+   {
+    "t": 45.833,
+    "frame": 1100,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead or left"
+   },
+   {
+    "t": 45.917,
+    "frame": 1102,
+    "action": "retract",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 47.958,
+    "frame": 1151,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead or left"
+   },
+   {
+    "t": 48.292,
+    "frame": 1159,
+    "action": "retract",
+    "name": "sign",
+    "value": "danger"
+   },
+   {
+    "t": 48.292,
+    "frame": 1159,
+    "action": "retract",
+    "name": "sign",
+    "value": "stop"
+   },
+   {
+    "t": 49.458,
+    "frame": 1187,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 54.625,
+    "frame": 1311,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 56.5,
+    "frame": 1356,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 58.875,
+    "frame": 1413,
+    "action": "retract",
+    "name": "speed-limit",
+    "value": "60"
+   },
+   {
+    "t": 58.875,
+    "frame": 1413,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "80"
+   },
+   {
+    "t": 73.792,
+    "frame": 1771,
+    "action": "assert",
+    "name": "sign",
+    "value": "no overtaking"
+   }
+  ],
+  "received": {
+   "road-type": [
+    "autobahn"
+   ],
+   "speed-limit": [
+    "80"
+   ],
+   "sign": [
+    "no overtaking"
+   ]
+  }
+ },
+ {
+  "video": "both1c.mp4",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 1801,
+  "frames_read": 1801,
+  "frames_processed": 1801,
+  "frames_dropped": 0,
+  "wall_s": 9.59,
+  "processed_fps": 187.75,
+  "cpu_percent": 356.7,
+  "frame_ms": {
+   "mean": 5.23,
+   "p95": 7.49
+  },
+  "latency_ms": {
+   "mean": 343.49,
+   "p95": 493.14
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 4.77,
+    "p95": 6.65
+   },
+   "sign": {
+    "mean": 3.7,
+    "p95": 7.01
+   },
+   "direction_sign": {
+    "mean": 2.93,
+    "p95": 4.59
+   }
+  },
+  "detections": {
+   "direction_sign": 124,
+   "speed_limit": 46,
+   "sign": 199
+  },
+  "facts": 15,
+  "events": [
+   {
+    "t": 4.667,
+    "frame": 112,
+    "action": "assert",
+    "name": "road-type",
+    "value": "autobahn"
+   },
+   {
+    "t": 7.625,
+    "frame": 183,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "60"
+   },
+   {
+    "t": 11.417,
+    "frame": 274,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 13.625,
+    "frame": 327,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 22.792,
+    "frame": 547,
+    "action": "assert",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 26.25,
+    "frame": 630,
+    "action": "retract",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 43.083,
+    "frame": 1034,
+    "action": "assert",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 45.333,
+    "frame": 1088,
+    "action": "assert",
+    "name": "sign",
+    "value": "danger"
+   },
+   {
+    "t": 45.375,
+    "frame": 1089,
+    "action": "assert",
+    "name": "sign",
+    "value": "stop"
+   },
+   {
+    "t": 45.583,
+    "frame": 1094,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 45.917,
+    "frame": 1102,
+    "action": "retract",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 48.292,
+    "frame": 1159,
+    "action": "retract",
+    "name": "sign",
+    "value": "danger"
+   },
+   {
+    "t": 48.292,
+    "frame": 1159,
+    "action": "retract",
+    "name": "sign",
+    "value": "stop"
+   },
+   {
+    "t": 49.5,
+    "frame": 1188,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 74.125,
+    "frame": 1779,
+    "action": "assert",
+    "name": "sign",
+    "value": "no overtaking"
+   }
+  ],
+  "received": {
+   "road-type": [
+    "autobahn"
+   ],
+   "speed-limit": [
+    "60"
+   ],
+   "sign": [
+    "no overtaking"
+   ]
+  }
+ },
+ {
+  "video": "both1d.mp4",
+  "mode": "parallel",
+  "scale": 0.5,
+  "frames_in_video": 1800,
+  "frames_read": 1800,
+  "frames_processed": 1800,
+  "frames_dropped": 0,
+  "wall_s": 27.86,
+  "processed_fps": 64.61,
+  "cpu_percent": 576.0,
+  "frame_ms": {
+   "mean": 15.02,
+   "p95": 18.76
+  },
+  "latency_ms": {
+   "mean": 928.24,
+   "p95": 1240.39
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 14.51,
+    "p95": 18.05
+   },
+   "sign": {
+    "mean": 10.29,
+    "p95": 16.48
+   },
+   "direction_sign": {
+    "mean": 7.61,
+    "p95": 10.71
+   }
+  },
+  "detections": {
+   "direction_sign": 159,
+   "speed_limit": 158,
+   "sign": 531,
+   "traffic_light": 18
+  },
+  "facts": 33,
+  "events": [
+   {
+    "t": 4.417,
+    "frame": 106,
+    "action": "assert",
+    "name": "road-type",
+    "value": "autobahn"
+   },
+   {
+    "t": 6.875,
+    "frame": 165,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "60"
+   },
+   {
+    "t": 10.667,
+    "frame": 256,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 11.583,
+    "frame": 278,
+    "action": "assert",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 13.583,
+    "frame": 326,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 14.625,
+    "frame": 351,
+    "action": "retract",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 15.208,
+    "frame": 365,
+    "action": "assert",
+    "name": "sign",
+    "value": "traffic signals"
+   },
+   {
+    "t": 16.542,
+    "frame": 397,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 17.917,
+    "frame": 430,
+    "action": "retract",
+    "name": "sign",
+    "value": "traffic signals"
+   },
+   {
+    "t": 18.583,
+    "frame": 446,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 18.958,
+    "frame": 455,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 20.292,
+    "frame": 487,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "green"
+   },
+   {
+    "t": 20.5,
+    "frame": 492,
+    "action": "assert",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 22.167,
+    "frame": 532,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 22.25,
+    "frame": 534,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "green"
+   },
+   {
+    "t": 23.083,
+    "frame": 554,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 25.333,
+    "frame": 608,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 26.208,
+    "frame": 629,
+    "action": "retract",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 41.333,
+    "frame": 992,
+    "action": "assert",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 43.792,
+    "frame": 1051,
+    "action": "assert",
+    "name": "sign",
+    "value": "danger"
+   },
+   {
+    "t": 45.125,
+    "frame": 1083,
+    "action": "assert",
+    "name": "sign",
+    "value": "stop"
+   },
+   {
+    "t": 45.333,
+    "frame": 1088,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 45.833,
+    "frame": 1100,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead or left"
+   },
+   {
+    "t": 45.875,
+    "frame": 1101,
+    "action": "retract",
+    "name": "sign",
+    "value": "road works"
+   },
+   {
+    "t": 47.958,
+    "frame": 1151,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead or left"
+   },
+   {
+    "t": 48.25,
+    "frame": 1158,
+    "action": "retract",
+    "name": "sign",
+    "value": "danger"
+   },
+   {
+    "t": 48.25,
+    "frame": 1158,
+    "action": "retract",
+    "name": "sign",
+    "value": "stop"
+   },
+   {
+    "t": 49.417,
+    "frame": 1186,
+    "action": "retract",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 53.667,
+    "frame": 1288,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 55.208,
+    "frame": 1325,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 57.917,
+    "frame": 1390,
+    "action": "retract",
+    "name": "speed-limit",
+    "value": "60"
+   },
+   {
+    "t": 57.917,
+    "frame": 1390,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "80"
+   },
+   {
+    "t": 73.042,
+    "frame": 1753,
+    "action": "assert",
+    "name": "sign",
+    "value": "no overtaking"
+   }
+  ],
+  "received": {
+   "road-type": [
+    "autobahn"
+   ],
+   "speed-limit": [
+    "80"
+   ],
+   "sign": [
+    "no overtaking"
+   ]
+  }
+ },
+ {
+  "video": "trafficLight1.mp4",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 552,
+  "frames_read": 552,
+  "frames_processed": 552,
+  "frames_dropped": 0,
+  "wall_s": 18.1,
+  "processed_fps": 30.49,
+  "cpu_percent": 308.8,
+  "frame_ms": {
+   "mean": 32.17,
+   "p95": 65.72
+  },
+  "latency_ms": {
+   "mean": 2025.66,
+   "p95": 3823.74
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 28.94,
+    "p95": 46.4
+   },
+   "sign": {
+    "mean": 20.79,
+    "p95": 41.63
+   },
+   "direction_sign": {
+    "mean": 17.43,
+    "p95": 29.02
+   }
+  },
+  "detections": {
+   "sign": 7,
+   "traffic_light": 12
+  },
+  "facts": 4,
+  "events": [
+   {
+    "t": 1.083,
+    "frame": 26,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 3.167,
+    "frame": 76,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 5.0,
+    "frame": 120,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 7.25,
+    "frame": 174,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   }
+  ],
+  "received": {}
+ },
+ {
+  "video": "trafficLight1a.mp4",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 552,
+  "frames_read": 552,
+  "frames_processed": 552,
+  "frames_dropped": 0,
+  "wall_s": 5.29,
+  "processed_fps": 104.37,
+  "cpu_percent": 402.7,
+  "frame_ms": {
+   "mean": 9.47,
+   "p95": 12.38
+  },
+  "latency_ms": {
+   "mean": 589.64,
+   "p95": 752.84
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 8.72,
+    "p95": 11.64
+   },
+   "sign": {
+    "mean": 7.38,
+    "p95": 10.7
+   },
+   "direction_sign": {
+    "mean": 5.35,
+    "p95": 7.97
+   }
+  },
+  "detections": {
+   "sign": 26,
+   "traffic_light": 18
+  },
+  "facts": 6,
+  "events": [
+   {
+    "t": 0.667,
+    "frame": 16,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 3.208,
+    "frame": 77,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 7.083,
+    "frame": 170,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 8.667,
+    "frame": 208,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 19.458,
+    "frame": 467,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 21.625,
+    "frame": 519,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   }
+  ],
+  "received": {}
+ },
+ {
+  "video": "trafficLight1B.mp4",
+  "mode": "parallel",
+  "scale": 0.5,
+  "frames_in_video": 552,
+  "frames_read": 552,
+  "frames_processed": 552,
+  "frames_dropped": 0,
+  "wall_s": 10.3,
+  "processed_fps": 53.57,
+  "cpu_percent": 523.9,
+  "frame_ms": {
+   "mean": 18.18,
+   "p95": 22.41
+  },
+  "latency_ms": {
+   "mean": 970.48,
+   "p95": 1210.55
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 17.43,
+    "p95": 21.25
+   },
+   "sign": {
+    "mean": 14.09,
+    "p95": 18.96
+   },
+   "direction_sign": {
+    "mean": 9.74,
+    "p95": 15.29
+   }
+  },
+  "detections": {
+   "sign": 193,
+   "traffic_light": 116
+  },
+  "facts": 11,
+  "events": [
+   {
+    "t": 0.125,
+    "frame": 3,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 2.167,
+    "frame": 52,
+    "action": "assert",
+    "name": "sign",
+    "value": "no entry"
+   },
+   {
+    "t": 3.125,
+    "frame": 75,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 4.625,
+    "frame": 111,
+    "action": "retract",
+    "name": "sign",
+    "value": "no entry"
+   },
+   {
+    "t": 7.333,
+    "frame": 176,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 8.833,
+    "frame": 212,
+    "action": "assert",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 15.292,
+    "frame": 367,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 19.417,
+    "frame": 466,
+    "action": "retract",
+    "name": "sign",
+    "value": "keep right"
+   },
+   {
+    "t": 19.542,
+    "frame": 469,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 20.5,
+    "frame": 492,
+    "action": "assert",
+    "name": "sign",
+    "value": "ahead only"
+   },
+   {
+    "t": 21.833,
+    "frame": 524,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   }
+  ],
+  "received": {
+   "sign": [
+    "ahead only"
+   ]
+  }
+ },
+ {
+  "video": "trafficLight1c.mp4",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 552,
+  "frames_read": 552,
+  "frames_processed": 552,
+  "frames_dropped": 0,
+  "wall_s": 4.55,
+  "processed_fps": 121.38,
+  "cpu_percent": 351.1,
+  "frame_ms": {
+   "mean": 8.15,
+   "p95": 10.58
+  },
+  "latency_ms": {
+   "mean": 502.25,
+   "p95": 580.13
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 7.38,
+    "p95": 9.49
+   },
+   "sign": {
+    "mean": 6.14,
+    "p95": 9.49
+   },
+   "direction_sign": {
+    "mean": 4.74,
+    "p95": 7.56
+   }
+  },
+  "detections": {
+   "sign": 11,
+   "traffic_light": 13
+  },
+  "facts": 4,
+  "events": [
+   {
+    "t": 0.917,
+    "frame": 22,
+    "action": "assert",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 3.167,
+    "frame": 76,
+    "action": "retract",
+    "name": "sign",
+    "value": "slippery road"
+   },
+   {
+    "t": 4.833,
+    "frame": 116,
+    "action": "assert",
+    "name": "traffic-light",
+    "value": "red"
+   },
+   {
+    "t": 6.917,
+    "frame": 166,
+    "action": "retract",
+    "name": "traffic-light",
+    "value": "red"
+   }
+  ],
+  "received": {}
+ },
+ {
+  "video": "video1.mp4",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 125,
+  "frames_read": 125,
+  "frames_processed": 125,
+  "frames_dropped": 0,
+  "wall_s": 0.97,
+  "processed_fps": 129.13,
+  "cpu_percent": 330.9,
+  "frame_ms": {
+   "mean": 7.51,
+   "p95": 11.46
+  },
+  "latency_ms": {
+   "mean": 358.83,
+   "p95": 510.32
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 6.57,
+    "p95": 8.85
+   },
+   "sign": {
+    "mean": 4.94,
+    "p95": 8.09
+   },
+   "direction_sign": {
+    "mean": 3.56,
+    "p95": 4.57
+   }
+  },
+  "detections": {
+   "speed_limit": 33
+  },
+  "facts": 1,
+  "events": [
+   {
+    "t": 2.76,
+    "frame": 69,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "50"
+   }
+  ],
+  "received": {
+   "speed-limit": [
+    "50"
+   ]
+  }
+ },
+ {
+  "video": "video2.mp4",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 150,
+  "frames_read": 150,
+  "frames_processed": 150,
+  "frames_dropped": 0,
+  "wall_s": 1.01,
+  "processed_fps": 148.87,
+  "cpu_percent": 335.0,
+  "frame_ms": {
+   "mean": 6.56,
+   "p95": 8.74
+  },
+  "latency_ms": {
+   "mean": 328.61,
+   "p95": 447.94
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 6.05,
+    "p95": 7.96
+   },
+   "sign": {
+    "mean": 4.58,
+    "p95": 7.62
+   },
+   "direction_sign": {
+    "mean": 3.16,
+    "p95": 4.51
+   }
+  },
+  "detections": {
+   "direction_sign": 1,
+   "speed_limit": 30
+  },
+  "facts": 1,
+  "events": [
+   {
+    "t": 3.36,
+    "frame": 84,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "70"
+   }
+  ],
+  "received": {
+   "speed-limit": [
+    "70"
+   ]
+  }
+ },
+ {
+  "video": "video3.mp4",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 250,
+  "frames_read": 250,
+  "frames_processed": 250,
+  "frames_dropped": 0,
+  "wall_s": 1.52,
+  "processed_fps": 164.6,
+  "cpu_percent": 325.1,
+  "frame_ms": {
+   "mean": 5.88,
+   "p95": 8.67
+  },
+  "latency_ms": {
+   "mean": 336.49,
+   "p95": 436.21
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 5.51,
+    "p95": 8.09
+   },
+   "sign": {
+    "mean": 3.9,
+    "p95": 7.34
+   },
+   "direction_sign": {
+    "mean": 3.24,
+    "p95": 5.5
+   }
+  },
+  "detections": {
+   "direction_sign": 57,
+   "speed_limit": 54,
+   "sign": 11
+  },
+  "facts": 6,
+  "events": [
+   {
+    "t": 2.52,
+    "frame": 63,
+    "action": "assert",
+    "name": "road-type",
+    "value": "road"
+   },
+   {
+    "t": 3.4,
+    "frame": 85,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "70"
+   },
+   {
+    "t": 6.04,
+    "frame": 151,
+    "action": "assert",
+    "name": "sign",
+    "value": "yield"
+   },
+   {
+    "t": 7.28,
+    "frame": 182,
+    "action": "retract",
+    "name": "speed-limit",
+    "value": "70"
+   },
+   {
+    "t": 7.28,
+    "frame": 182,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "50"
+   },
+   {
+    "t": 8.4,
+    "frame": 210,
+    "action": "retract",
+    "name": "sign",
+    "value": "yield"
+   }
+  ],
+  "received": {
+   "road-type": [
+    "road"
+   ],
+   "speed-limit": [
+    "50"
+   ]
+  }
+ },
+ {
+  "video": "video4.mp4",
+  "mode": "parallel",
+  "scale": 1.0,
+  "frames_in_video": 125,
+  "frames_read": 125,
+  "frames_processed": 125,
+  "frames_dropped": 0,
+  "wall_s": 1.04,
+  "processed_fps": 120.61,
+  "cpu_percent": 298.5,
+  "frame_ms": {
+   "mean": 7.86,
+   "p95": 12.84
+  },
+  "latency_ms": {
+   "mean": 408.83,
+   "p95": 600.99
+  },
+  "detector_ms": {
+   "traffic_light": {
+    "mean": 7.04,
+    "p95": 10.29
+   },
+   "sign": {
+    "mean": 5.24,
+    "p95": 8.73
+   },
+   "direction_sign": {
+    "mean": 3.47,
+    "p95": 6.21
+   }
+  },
+  "detections": {
+   "direction_sign": 21,
+   "speed_limit": 28,
+   "sign": 1
+  },
+  "facts": 2,
+  "events": [
+   {
+    "t": 0.12,
+    "frame": 3,
+    "action": "assert",
+    "name": "road-type",
+    "value": "road"
+   },
+   {
+    "t": 2.48,
+    "frame": 62,
+    "action": "assert",
+    "name": "speed-limit",
+    "value": "30"
+   }
+  ],
+  "received": {
+   "road-type": [
+    "road"
+   ],
+   "speed-limit": [
+    "30"
+   ]
+  }
+ }
+]

@@ -1,0 +1,48 @@
+video,t,fact,value,verdict,note
+3.avi,5.792,road-type,autobahn,correct,
+3.avi,8.5,speed-limit,60,correct,
+3.avi,12.292,sign,slippery road,correct,
+3.avi,13.458,sign,road works,correct,
+3.avi,17.167,sign,traffic signals,correct,
+3.avi,20.542,sign,keep right,correct,
+3.avi,23.125,sign,yield,correct,
+auto2.mp4,8.675,road-type,autobahn,correct,
+both1d.mp4,4.417,road-type,autobahn,correct,
+both1d.mp4,6.875,speed-limit,60,correct,
+both1d.mp4,10.667,sign,slippery road,correct,
+both1d.mp4,11.583,sign,road works,correct,
+both1d.mp4,15.208,sign,traffic signals,correct,
+both1d.mp4,16.542,sign,ahead only,wrong,blue detour sign U 48
+both1d.mp4,18.958,sign,keep right,correct,
+both1d.mp4,20.292,traffic-light,green,correct,
+both1d.mp4,20.5,sign,yield,correct,
+both1d.mp4,23.083,sign,keep right,correct,
+both1d.mp4,41.333,sign,road works,correct,
+both1d.mp4,43.792,sign,danger,correct,
+both1d.mp4,45.125,sign,stop,correct,
+both1d.mp4,45.333,sign,ahead only,correct,
+both1d.mp4,45.833,sign,ahead or left,correct,
+both1d.mp4,53.667,traffic-light,red,wrong,tail light of a car
+both1d.mp4,57.917,speed-limit,80,correct,
+both1d.mp4,73.042,sign,no overtaking,correct,
+trafficLight1.mp4,1.083,sign,slippery road,correct,
+trafficLight1.mp4,5.0,traffic-light,red,unclear,lamp too small to judge in the crop
+trafficLight1a.mp4,0.667,sign,slippery road,correct,
+trafficLight1a.mp4,7.083,traffic-light,red,unclear,lamp too small to judge in the crop
+trafficLight1a.mp4,19.458,traffic-light,red,correct,
+trafficLight1B.mp4,0.125,sign,slippery road,correct,
+trafficLight1B.mp4,2.167,sign,no entry,wrong,poster
+trafficLight1B.mp4,7.333,traffic-light,red,wrong,"orange roof, no housing visible"
+trafficLight1B.mp4,8.833,sign,keep right,correct,
+trafficLight1B.mp4,19.542,traffic-light,red,correct,
+trafficLight1B.mp4,20.5,sign,ahead only,wrong,square blue information sign
+trafficLight1c.mp4,0.917,sign,slippery road,correct,
+trafficLight1c.mp4,4.833,traffic-light,red,unclear,lamp too small to judge in the crop
+video1.mp4,2.76,speed-limit,50,correct,
+video2.mp4,3.36,speed-limit,70,correct,
+video3.mp4,2.52,road-type,road,correct,
+video3.mp4,3.4,speed-limit,70,correct,
+video3.mp4,6.04,sign,yield,correct,
+video3.mp4,7.28,speed-limit,50,correct,
+video4.mp4,0.12,road-type,road,correct,
+video4.mp4,2.48,speed-limit,30,correct,

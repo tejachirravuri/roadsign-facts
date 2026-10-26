@@ -1,0 +1,11 @@
+{"t": 0.125, "frame": 3, "action": "assert", "name": "sign", "value": "slippery road"}
+{"t": 2.167, "frame": 52, "action": "assert", "name": "sign", "value": "no entry"}
+{"t": 3.125, "frame": 75, "action": "retract", "name": "sign", "value": "slippery road"}
+{"t": 4.625, "frame": 111, "action": "retract", "name": "sign", "value": "no entry"}
+{"t": 7.333, "frame": 176, "action": "assert", "name": "traffic-light", "value": "red"}
+{"t": 8.833, "frame": 212, "action": "assert", "name": "sign", "value": "keep right"}
+{"t": 15.292, "frame": 367, "action": "retract", "name": "traffic-light", "value": "red"}
+{"t": 19.417, "frame": 466, "action": "retract", "name": "sign", "value": "keep right"}
+{"t": 19.542, "frame": 469, "action": "assert", "name": "traffic-light", "value": "red"}
+{"t": 20.5, "frame": 492, "action": "assert", "name": "sign", "value": "ahead only"}
+{"t": 21.833, "frame": 524, "action": "retract", "name": "traffic-light", "value": "red"}

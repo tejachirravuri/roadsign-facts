@@ -1,0 +1,38 @@
+{
+ "reference": "both1d.mp4",
+ "tolerance_s": 1.5,
+ "rows": [
+  {
+   "video": "both1a.mp4",
+   "offset_s": 0.0,
+   "facts": 12,
+   "also_in_reference": 8,
+   "reference_facts": 18,
+   "reference_found": 8
+  },
+  {
+   "video": "both1b.mp4",
+   "offset_s": 0.0,
+   "facts": 16,
+   "also_in_reference": 16,
+   "reference_facts": 18,
+   "reference_found": 16
+  },
+  {
+   "video": "both1c.mp4",
+   "offset_s": 0.0,
+   "facts": 9,
+   "also_in_reference": 6,
+   "reference_facts": 18,
+   "reference_found": 6
+  },
+  {
+   "video": "autobahn5a1.mp4",
+   "offset_s": 101.3,
+   "facts": 17,
+   "also_in_reference": 17,
+   "reference_facts": 18,
+   "reference_found": 17
+  }
+ ]
+}

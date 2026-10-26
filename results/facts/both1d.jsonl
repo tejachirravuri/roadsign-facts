@@ -1,0 +1,33 @@
+{"t": 4.417, "frame": 106, "action": "assert", "name": "road-type", "value": "autobahn"}
+{"t": 6.875, "frame": 165, "action": "assert", "name": "speed-limit", "value": "60"}
+{"t": 10.667, "frame": 256, "action": "assert", "name": "sign", "value": "slippery road"}
+{"t": 11.583, "frame": 278, "action": "assert", "name": "sign", "value": "road works"}
+{"t": 13.583, "frame": 326, "action": "retract", "name": "sign", "value": "slippery road"}
+{"t": 14.625, "frame": 351, "action": "retract", "name": "sign", "value": "road works"}
+{"t": 15.208, "frame": 365, "action": "assert", "name": "sign", "value": "traffic signals"}
+{"t": 16.542, "frame": 397, "action": "assert", "name": "sign", "value": "ahead only"}
+{"t": 17.917, "frame": 430, "action": "retract", "name": "sign", "value": "traffic signals"}
+{"t": 18.583, "frame": 446, "action": "retract", "name": "sign", "value": "ahead only"}
+{"t": 18.958, "frame": 455, "action": "assert", "name": "sign", "value": "keep right"}
+{"t": 20.292, "frame": 487, "action": "assert", "name": "traffic-light", "value": "green"}
+{"t": 20.5, "frame": 492, "action": "assert", "name": "sign", "value": "yield"}
+{"t": 22.167, "frame": 532, "action": "retract", "name": "sign", "value": "keep right"}
+{"t": 22.25, "frame": 534, "action": "retract", "name": "traffic-light", "value": "green"}
+{"t": 23.083, "frame": 554, "action": "assert", "name": "sign", "value": "keep right"}
+{"t": 25.333, "frame": 608, "action": "retract", "name": "sign", "value": "keep right"}
+{"t": 26.208, "frame": 629, "action": "retract", "name": "sign", "value": "yield"}
+{"t": 41.333, "frame": 992, "action": "assert", "name": "sign", "value": "road works"}
+{"t": 43.792, "frame": 1051, "action": "assert", "name": "sign", "value": "danger"}
+{"t": 45.125, "frame": 1083, "action": "assert", "name": "sign", "value": "stop"}
+{"t": 45.333, "frame": 1088, "action": "assert", "name": "sign", "value": "ahead only"}
+{"t": 45.833, "frame": 1100, "action": "assert", "name": "sign", "value": "ahead or left"}
+{"t": 45.875, "frame": 1101, "action": "retract", "name": "sign", "value": "road works"}
+{"t": 47.958, "frame": 1151, "action": "retract", "name": "sign", "value": "ahead or left"}
+{"t": 48.25, "frame": 1158, "action": "retract", "name": "sign", "value": "danger"}
+{"t": 48.25, "frame": 1158, "action": "retract", "name": "sign", "value": "stop"}
+{"t": 49.417, "frame": 1186, "action": "retract", "name": "sign", "value": "ahead only"}
+{"t": 53.667, "frame": 1288, "action": "assert", "name": "traffic-light", "value": "red"}
+{"t": 55.208, "frame": 1325, "action": "retract", "name": "traffic-light", "value": "red"}
+{"t": 57.917, "frame": 1390, "action": "retract", "name": "speed-limit", "value": "60"}
+{"t": 57.917, "frame": 1390, "action": "assert", "name": "speed-limit", "value": "80"}
+{"t": 73.042, "frame": 1753, "action": "assert", "name": "sign", "value": "no overtaking"}

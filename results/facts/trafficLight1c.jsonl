@@ -1,0 +1,4 @@
+{"t": 0.917, "frame": 22, "action": "assert", "name": "sign", "value": "slippery road"}
+{"t": 3.167, "frame": 76, "action": "retract", "name": "sign", "value": "slippery road"}
+{"t": 4.833, "frame": 116, "action": "assert", "name": "traffic-light", "value": "red"}
+{"t": 6.917, "frame": 166, "action": "retract", "name": "traffic-light", "value": "red"}

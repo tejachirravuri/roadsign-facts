@@ -1,0 +1,6 @@
+{"t": 2.52, "frame": 63, "action": "assert", "name": "road-type", "value": "road"}
+{"t": 3.4, "frame": 85, "action": "assert", "name": "speed-limit", "value": "70"}
+{"t": 6.04, "frame": 151, "action": "assert", "name": "sign", "value": "yield"}
+{"t": 7.28, "frame": 182, "action": "retract", "name": "speed-limit", "value": "70"}
+{"t": 7.28, "frame": 182, "action": "assert", "name": "speed-limit", "value": "50"}
+{"t": 8.4, "frame": 210, "action": "retract", "name": "sign", "value": "yield"}

@@ -1,0 +1,12 @@
+{"t": 5.792, "frame": 139, "action": "assert", "name": "road-type", "value": "autobahn"}
+{"t": 8.5, "frame": 204, "action": "assert", "name": "speed-limit", "value": "60"}
+{"t": 12.292, "frame": 295, "action": "assert", "name": "sign", "value": "slippery road"}
+{"t": 13.458, "frame": 323, "action": "assert", "name": "sign", "value": "road works"}
+{"t": 14.875, "frame": 357, "action": "retract", "name": "sign", "value": "slippery road"}
+{"t": 15.917, "frame": 382, "action": "retract", "name": "sign", "value": "road works"}
+{"t": 17.167, "frame": 412, "action": "assert", "name": "sign", "value": "traffic signals"}
+{"t": 19.25, "frame": 462, "action": "retract", "name": "sign", "value": "traffic signals"}
+{"t": 20.542, "frame": 493, "action": "assert", "name": "sign", "value": "keep right"}
+{"t": 23.125, "frame": 555, "action": "assert", "name": "sign", "value": "yield"}
+{"t": 23.458, "frame": 563, "action": "retract", "name": "sign", "value": "keep right"}
+{"t": 27.5, "frame": 660, "action": "retract", "name": "sign", "value": "yield"}

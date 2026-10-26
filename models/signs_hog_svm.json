@@ -1,0 +1,13 @@
+{
+ "features": 1800,
+ "pca": 400,
+ "size": 40,
+ "C": 0.05,
+ "train_gtsrb": 39209,
+ "train_background": 5204,
+ "background_videos": [
+  "trafficLight1B.mp4",
+  "auto2.mp4"
+ ],
+ "test_accuracy": 0.9387173396674584
+}
